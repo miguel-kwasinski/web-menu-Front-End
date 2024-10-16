@@ -6,7 +6,7 @@ interface CardProps {
     image:string
 
 }
-export function Card(props : CardProps){
+export function Card({price,image,title} : CardProps){
     return(
         <div className="card">
             <img/>
